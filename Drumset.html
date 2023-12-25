@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Drumset.css" />
+    <title>DrumSet</title>
+  </head>
+  <body>
+    <!-- Container for the drum keys -->
+    <div class="keys">
+      <!-- Individual drum keys with associated data-key attribute and labels -->
+      <div data-key="87" class="key">
+        <kbd>W</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="69" class="key">
+        <kbd>E</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div data-key="81" class="key">
+        <kbd>Q</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="90" class="key">
+        <kbd>Z</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="88" class="key">
+        <kbd>X</kbd>
+        <span class="sound">Bamboo</span>
+      </div>
+      <div data-key="67" class="key">
+        <kbd>C</kbd>
+        <span class="sound">Clap 2</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">Clap 3</span>
+      </div>
+      <div data-key="82" class="key">
+        <kbd>R</kbd>
+        <span class="sound">Bass Drum 1</span>
+      </div>
+      <div data-key="84" class="key">
+        <kbd>T</kbd>
+        <span class="sound">Bass Drum 2</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">Bottle</span>
+      </div>
+    </div>
+
+    <!-- Audio elements for each drum sound with associated data-key attribute and source -->
+    <audio data-key="87" src="Audio/clap.wav"></audio>
+    <audio data-key="65" src="Audio/hihat.wav"></audio>
+    <audio data-key="68" src="Audio/kick.wav"></audio>
+    <audio data-key="83" src="Audio/openhat.wav"></audio>
+    <audio data-key="69" src="Audio/boom.wav"></audio>
+    <audio data-key="81" src="Audio/snare.wav"></audio>
+    <audio data-key="90" src="Audio/tom.wav"></audio>
+    <audio data-key="88" src="Audio/Bamboo.wav"></audio>
+    <audio data-key="67" src="Audio/Clap-1.wav"></audio>
+    <audio data-key="70" src="Audio/Clap-2.wav"></audio>
+    <audio data-key="82" src="Audio/Bass-Drum-1.wav"></audio>
+    <audio data-key="84" src="Audio/Bass-Drum-2.wav"></audio>
+    <audio data-key="71" src="Audio/Bottle.wav"></audio>
+  </body>
+  <script src="Drumset.js"></script>
+</html>
